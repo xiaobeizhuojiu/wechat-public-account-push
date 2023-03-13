@@ -8,20 +8,20 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: '',
+  APP_ID: 'wx6195b2dd8bf8a5d5',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: '',
+  APP_SECRET: '6a33fe44bf1042d7de80519b0c77a8de',
 
-  PROVINCE: '广东',
-  CITY: '惠州',
+  PROVINCE: '辽宁',
+  CITY: '丹东',
 
   USERS: [
     {
       // 想要发送的人的名字
-      name: '宝贝',
+      name: '小杯酌酒',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: '',
+      id: 'oyVft6iShib4Zq4FC-n2oqbrJXHA',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: '',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
@@ -29,11 +29,11 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '宝贝', year: '1996', date: '09-09',
+          type: '生日', name: '自己', year: '2004', date: '05-18',
         },
         // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
         {
-          type: '生日', name: '李四', year: '1996', date: '09-31',
+          type: '*生日', name: 'love', year: '2004', date: '01-08',
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '09-03',
